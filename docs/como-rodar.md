@@ -26,7 +26,7 @@
 
 - Além disso, precisamos criar o nosso banco de dados dentro do container do MySQL
 ````bash
-    docker exec test-mysql mysql -u root -pstrong_password -e "create database website"
+    docker exec mysql mysql -u root -pstrong_password -e "create database website"
 ````
 #### Aplicação
 - Agora podemos rodar o docker compose para subirmos a docker image da Intranet
