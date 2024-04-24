@@ -8,7 +8,7 @@
 - Primeiro precisamos criar um container para o MySQL para subirmos um banco de dados utilizável pela aplicação, para isso rode o seguinte comando na pasta raiz do projeto
 
 ````bash
-    docker volume create volume-mysql
+    docker volume create mysql
 ````
 
 ````bash
@@ -16,12 +16,12 @@
 ````
 
 ````bash
-    docker run -d --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -p 3306:3306 mysql:8.0
+    docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=strong_password -v mysql --network mysql -p 3306:3306 mysql:8.0
 ````
 
 - Finalmente, seu container do MySQL está configurado e para executá-lo você pode rodar o seguinte comando:
 ````bash
-    docker start test-mysql
+    docker start mysql
 ````
 
 - Além disso, precisamos criar o nosso banco de dados dentro do container do MySQL
