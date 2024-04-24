@@ -1,6 +1,6 @@
 * <b>Menu</b>
 [Home](/)
 * 
-[Test](Test/README.md)
+[Rodando o projeto](como-rodar)
 *
-[Blabla](Blabla/README.md)
+[Blabla](Blabla.md)

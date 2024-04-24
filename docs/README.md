@@ -1,26 +1,14 @@
-# Welcome to my project
+# Documentação Intranet 
 
-> Just a small test to understand how this lib works
+> Essa documentação visa guiar os desenvolvedores do Intranet afim de realizar uma eventual manutenção
 
-## Getting started
-```powershell
-npm i my-dick -g
-```
-## Creating more sections
-> Writing nonsense...
-> 
-> This ain't an ask for help
-> 
-> Yamete Kudasai
-> 
+## Sobre
+O objetivo da Intranet é ...
 
-## That's enough for today, guys
-Thanks for you attention folks
+## Requisitos
+Antes de rodar o projeto certifique-se que tenha instalado:
+- [Docker](https://www.docker.com/products/docker-desktop/) 
+- [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
 
-## Download
 
-> Click below to download this page as a PDF 👇
 
-```pdf
-	texto
-```
